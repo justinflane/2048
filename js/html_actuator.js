@@ -172,7 +172,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.textContent = "Tweet";
 
-  var text = "" + this.score + " points in UNSW Library icon game! https://justinflane.github.io/2048/"
+  var text = "" + this.score + " points in UNSW Library icon game!"
   tweet.setAttribute("data-text", text);
 
   return tweet;
