@@ -991,7 +991,7 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
   cursor: pointer;
   display: block;
   text-align: center;
-  float: right;
+  /*float: right;*/
   margin-top: 7px;
 }
 
@@ -1006,9 +1006,9 @@ a.retry-button, a.learn-low {
   line-height: 42px;
 }
 
-a.learn-low {
+/*a.learn-low {
   margin-right: 10px;
-}
+}*/
 
 a.retry-button {
   margin-left: 10px;
